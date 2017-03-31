@@ -41,7 +41,7 @@ All endpoint require "Content-Type: application/json" header.
 		Response: deleted machine
 		Description: delete your machine
 		
-3. load balaner
+3. Load balancer
 
 		Type: POST
 		Endpoint: api/balances
