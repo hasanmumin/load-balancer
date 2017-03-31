@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  contextPath: /api/
+spring:
+  profiles:
+    active: local
+  jpa:
+    show-sql: true
+
+balancer:
+  token:
+    header: X-Auth-Token
+    secret: aaabbbccc!
+    expiration: 604800
+  route:
+    authentication:
+      path: auth
+      refresh: refresh

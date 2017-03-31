@@ -1,0 +1,3 @@
+insert into users(oid, username, password, last_password_reset, authorities,version) values('19c0f5b8149811e793ae92361f002671', 'user', '$2a$08$UkVvwpULis18S19S5pZFn.YHPZt3oaqHZnDwqbCW9pft6uFtkXKDC', null, 'USER',0)
+insert into users(oid, username, password, last_password_reset, authorities,version) values('4f3308d0149811e793ae92361f002671', 'admin', '$2a$08$lDnHPz7eUkSi6ao14Twuau08mzhWrL4kyZGGU5xfiGALO/Vxd5DOi', null, 'ADMIN, ROOT',0)
+insert into users(oid, username, password, last_password_reset, authorities,version) values('4f330c72149811e793ae92361f002671', 'expired', '$2a$10$PZ.A0IuNG958aHnKDzILyeD9k44EOi1Ny0VlAn.ygrGcgmVcg8PRK', parsedatetime('01-JAN-2050','dd-MMM-yyyy'), 'USER',0)
